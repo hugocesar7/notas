@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputNota"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:maxLines="4"
+        android:hint="Digite sua nota"
+        android:textSize="24sp"/>
+</LinearLayout>
